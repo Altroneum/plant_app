@@ -34,7 +34,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             Container(
-              height: 120,
+              height: 140,
               margin: EdgeInsets.only(top: 16,right: 16),
               child: Stack(
                 children: [
@@ -47,6 +47,7 @@ class HomePage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(20)
                     ),
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text("30% OFF",style: TextStyle(fontSize: 24,fontWeight: FontWeight.w600),),
@@ -57,7 +58,7 @@ class HomePage extends StatelessWidget {
                   Align(
                       alignment: Alignment.topRight,
                       child: Image.network(
-                          height:100,
+                          height:140,
                           "https://images.squarespace-cdn.com/content/v1/5833bd87579fb3cc08e86017/1591057421252-0NVMNDDMTUELY9I108C8/PlantMonstera001_preview1.png"))
                 ],
               ),
